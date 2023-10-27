@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Section stil */
+.section-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.skill-bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #2E8B57;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.skill.c{
+    width: 80%; 
+}
+
+.skill.javascript {
+    width: 80%; 
+}
+
+.skill.html {
+    width: 70%; 
+}
+
+.skill.css {
+    width: 70%; 
+}
+
+.skill.python {
+    width: 75%; 
+}
+
+
+
+/* İletişim stil */
+section#iletisim {
+    background: url('background-image.jpg') center center/cover no-repeat;
+    color: #fff;
+    padding: 20px;
+}
+
+section#iletisim h2 {
+    text-align: center;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+}
+
+button {
+    background-color: #5F9EA0   ; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c3b6ea; 
+}
+
+/* Footer stil */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive tasarım */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+
+    nav li {
+        margin: 0 10px;
+    }
+
+    .skill {
+        flex-basis: calc(50% - 20px);
+    }
+}
+.contact-button {
+    background-color: #5F9EA0   ;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.contact-button:hover {
+    background-color: #c3b6ea; 
+}
+
+.section-content1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+form {
+    padding: 50px;
+}
+.profile {
+    display: flex; 
+    align-items: center; 
+}
+
+.profile img {
+    margin-right: 20px; 
+}
+.github-button {
+    background-color: #5F9EA0 ; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.github-button img {
+    border-radius: 50%;
+}
+.github-button:hover {
+    background-color: #c3b6ea;
+}
+.github-button  {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+    height: 25px;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+}
+.contact-button, .github-button {
+    border: none;
+    border-radius: 500%; 
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 50px; 
+    height: 50px; 
+    line-height: 50px; 
+}
